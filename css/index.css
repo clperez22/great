@@ -1,0 +1,23 @@
+.main{
+    width: 40rem;
+    height: 100vh; /*vh para qu ecupe toda la pantalla*/
+    background-color: aliceblue;
+    padding: 4rem;
+
+    margin: auto;
+
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-items: center;
+    
+}
+.bloque{
+    width: 10rem;
+    height: 10rem;
+    background-color: green;
+    border: 1px solid yellow;
+}
+.activo{
+    display: none;
+}
+/**llamar todos los div que tengan como clase bloque */
